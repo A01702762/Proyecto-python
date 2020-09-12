@@ -14,7 +14,6 @@ print("¿Cual es tu estatura en cm?")
 
 estaturacm=float(input())
 estaturam=estaturacm/100
-estaturasqrt=estaturam**2
 
 print("¿Cual es tu peso en kg?")
 
@@ -24,35 +23,40 @@ print("¿Eres hombre o mujer?")
 
 genero=str(input())
 
+def imc(a,b):
+  return a/b**2
+ 
+final = imc(peso,estaturam)
 
 print("Tu peso es de ", peso,"kg")
 print("Tu estatura es de ", estaturam,"m")
 print("Te identificas como ", genero)
 print("por lo tanto: ")
 
-imc=peso/estaturasqrt
 
-print("Tu IMC es de: ", imc)
-
+print("Tu IMC es de: ", final)
 
 
-if(24>=imc>18):
+
+if(24>=final>18):
     
     print("Tu IMC es normal")
     print("sugerencia: haga ejercicio regularmente y alimentese sanamente")
 
-elif(imc<18):
+elif(final<18):
     
     print("Tu IMC es bajo")
     print("Sugerencia: consulte a su médico")
     
 
-elif(imc>24):
+elif(final >= 25 and final <30):
     
     print("Tu IMC es alto")
     print("Sugerencia: consulte a su médico")
 
-
+elif(final >= 30):
+    print("Tu IMC muestra sobrepeso")
+    print("Sugerencia: Su salud peligra")
 
 
 
