@@ -10,3 +10,6 @@ En el avance agregue codicionales más especificos para arrojar sugerencias de a
 
 Avance 4:
 En el avance 4 agregué un ciclo while que repitiera instrucciones para insertar las variables hasta que se les insertara un valor, ademas de nombrar nuevas variables para convertir las variables de un objeto tipo str a un número para hacer las operaciones.
+
+Avance 5:
+En el avance 5 agregue otra opción que te permitiese guardar los datos sobre el peso que has registrado los ultimos 4 meses y te lanza una matriz con el mes, el peso actual y el peso perdido caalculado.
