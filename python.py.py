@@ -79,9 +79,7 @@ if opcion==2:
         for linea in mat:
             j=2
             for col in linea:
-                print("Cuanto peso perdiste?")
-                peso_perdido=int(input())
-                mat[i][j]=peso_perdido
+                mat[i][j]=mat[i][j-2]-mat[i-1][j-2]
             i=i+1
     per=perdido(matriz,0)
     print(matriz)
