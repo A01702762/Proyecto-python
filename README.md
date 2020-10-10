@@ -13,3 +13,6 @@ En el avance 4 agregué un ciclo while que repitiera instrucciones para insertar
 
 Avance 5:
 En el avance 5 agregue otra opción que te permitiese guardar los datos sobre el peso que has registrado los ultimos 4 meses y te lanza una matriz con el mes, el peso actual y el peso perdido caalculado.
+
+Avance 6:
+Aguegue elementos de colorama al programa, como estilo, color y fondo en los texto para resaltar lo que te pedia y darle estetica. Tambien agregue condicionales para los generos, por lo que te arrojara un resultado diferente dependiendo si eres hombre o mujer y ya tenia una matriz en mi programa.
