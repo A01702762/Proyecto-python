@@ -2,6 +2,7 @@
 #A01702762
 #Calculadora de Indice de Masa Corporal(peso, edad, altura y genero)    
 from colorama import *
+#Importe como biblioteca externa colorama
 print("""Elige una opcion:
 1. Calcular tu imc
 2. Ingresa los datos de tus ultimos 4 meses de consultas
@@ -15,9 +16,12 @@ if opcion==1:
     while not nombre:
         init();
         nombre=input(Back.BLACK + Fore.CYAN + "Escribe tu" + Back.YELLOW + Fore.BLACK + Style.BRIGHT + "nombre: ")
+        #Aguegue elementos de colorama al programa, como estilo con Style. , color con Fore. y fondo en los texto con Back. para resaltar lo que te pedia y darle estetica. 
+
     edad= ''
     while not edad:
         edad=input(Back.BLACK + Fore.CYAN + Style.DIM + "¿Cuantos" + Back.YELLOW + Fore.BLACK + Style.BRIGHT + " años" + Back.BLACK + Fore.CYAN + Style.DIM + " tienes?")
+        #Agregue en formato diferente en cada linea de texto debido a que si la aplicas desde arriba tela aplica a todo el texto
     estaturacmstr=float()
     while not estaturacmstr:
         estaturacmstr=input(Back.BLACK + Fore.CYAN + Style.DIM + "¿Cual es tu" + Back.YELLOW + Fore.BLACK + Style.BRIGHT + "estatura en cm?")
