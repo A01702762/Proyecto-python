@@ -1,0 +1,39 @@
+Sub-Competencia: 
+Usa herremientas de control de veriosnes (avance 1)
+
+Error original:
+Tenia archivos extras que no necesitaba en la carpeta.
+
+Cambio realizado:
+Elimine esos archivos y solo deje el de mi proyecto y la explicacion de este.
+
+Líneas de código donde se ve la corrección:
+*No aplica*
+
+----------------------------------------------------------------------------------------------
+Sub-Competencia: 
+Usa una biblioteca de python extra (a las vistas en el temario) que investiga por su cuenta (avance 1)
+
+Error original:
+No la habia aplicado dentro del programa.
+
+Cambio realizado:
+Importe colorama y le agregue formato a todo el texto que me lanzará mi código con el mismo.
+nombre=input(Back.BLACK + Fore.CYAN + "Escribe tu" + Back.YELLOW + Fore.BLACK + Style.BRIGHT + "nombre: ")
+
+Líneas de código donde se ve la corrección:17 a 39
+------------------------------------------------------------------------------------------------
+Sub-Competencia: Explica como funciona la biblioteca extra (avance 1)
+
+Error original: No explicaba como funcionaba colorama dentro del código.
+
+Cambio realizado: Comentarios con #
+        #Importe como biblioteca externa colorama
+        #Aguegue elementos de colorama al programa, como estilo con Style. , color con Fore. y fondo en los texto con Back. para resaltar lo que te pedia y darle estetica. 
+        #Agregue en formato diferente en cada linea de texto debido a que si la aplicas desde arriba tela aplica a todo el texto
+
+
+Líneas de código donde se ve la corrección:5,19,24
+
+
+
